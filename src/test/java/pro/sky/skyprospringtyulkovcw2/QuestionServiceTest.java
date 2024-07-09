@@ -30,7 +30,7 @@ public class QuestionServiceTest {
 
     @BeforeEach
     public void before() {
-        questions.forEach(questionService::remove);
+        questions.forEach(questionService::add);
     }
 
     @AfterEach

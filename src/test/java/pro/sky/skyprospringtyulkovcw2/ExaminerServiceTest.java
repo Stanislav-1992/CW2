@@ -1,6 +1,5 @@
 package pro.sky.skyprospringtyulkovcw2;
 
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -11,9 +10,7 @@ import pro.sky.skyprospringtyulkovcw2.exeption.IncorrectAmountException;
 import pro.sky.skyprospringtyulkovcw2.model.Question;
 import pro.sky.skyprospringtyulkovcw2.service.Impl.ExaminerServiceImpl;
 import pro.sky.skyprospringtyulkovcw2.service.QuestionService;
-
 import java.util.List;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 import static org.mockito.Mockito.when;
